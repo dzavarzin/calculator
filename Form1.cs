@@ -62,11 +62,13 @@ namespace Calculator
         public void multiply(long arg) {
             //TODO: add test
             //TODO: implement
+            currentResult *= arg;
         }
 
         public void divide(long arg) {
             //TODO: add test
             //TODO: implement
+            currentResult /= arg;
         }
     }
 }
