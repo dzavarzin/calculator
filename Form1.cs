@@ -67,6 +67,7 @@ namespace Calculator
         public void divide(long arg) {
             //TODO: add test
             currentResult /= arg;
+            //TODO: 0 divide
         }
     }
 }
